@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Paulo Martins | Nutrição Clínica Esportiva</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script>
+tailwind.config = {
+theme: {
+extend: {
+fontFamily:{
+sans:['Plus Jakarta Sans','sans-serif']
+},
+colors:{
+brand:{
+dark:'#060606',
+soft:'#0f0f0f',
+primary:'#f97316'
+}
+}
+}
+}
+}
+</script>
+
+<style>
+
+body{
+background:#050505;
+overflow-x:hidden;
+}
+
+.grid-overlay{
+background-image:
+linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+background-size:40px 40px;
+}
+
+.glow{
+position:absolute;
+width:500px;
+height:500px;
+border-radius:999px;
+background:rgba(249,115,22,.16);
+filter:blur(120px);
+pointer-events:none;
+}
+
+.reveal{
+opacity:0;
+transform:translateY(60px);
+transition:1s ease;
+}
+
+.reveal.active{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+
+</head>
+
+<body class="text-white font-sans">
+
+<!-- HERO -->
+
+<section class="relative min-h-screen flex items-center overflow-hidden grid-overlay">
+
+<div class="glow top-[-180px] right-[-120px]"></div>
+
+<div class="max-w-7xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-20 items-center relative z-10">
+
+<!-- LEFT -->
+
+<div class="space-y-8 reveal">
+
+<div class="inline-flex items-center gap-3 border border-white/10 bg-white/5 backdrop-blur-xl px-5 py-3 rounded-full text-sm tracking-[0.25em] uppercase text-orange-300 font-semibold">
+Nutrição Clínica • Performance • Resultado
+</div>
+
+<h1 class="text-5xl md:text-7xl font-black leading-[0.92] tracking-[-0.06em] max-w-4xl">
+O básico bem feito ainda é o que gera transformação real.
+</h1>
+
+<p class="text-zinc-400 text-xl leading-relaxed max-w-2xl">
+Uma abordagem prática, estratégica e sustentável para quem quer emagrecer, ganhar performance e conquistar resultados consistentes sem terrorismo nutricional.
+</p>
+
+<div class="flex flex-wrap gap-5 pt-2">
+
+<a
+href="https://api.whatsapp.com/send/?phone=558698008474&text&type=phone_number&app_absent=0&utm_source=ig"
+class="bg-orange-500 hover:bg-orange-600 transition-all duration-300 px-10 py-5 rounded-2xl font-bold text-white text-lg shadow-[0_20px_60px_rgba(249,115,22,0.35)]"
+>
+QUERO COMEÇAR AGORA
+</a>
+
+</div>
+
+<div class="grid grid-cols-2 md:grid-cols-3 gap-10 pt-10">
+
+<div>
+<h3 class="text-4xl font-black">+26mil</h3>
+<p class="text-zinc-500 mt-2 text-sm uppercase tracking-wider">
+seguidores
+</p>
+</div>
+
+<div>
+<h3 class="text-4xl font-black">Online</h3>
+<p class="text-zinc-500 mt-2 text-sm uppercase tracking-wider">
+consultoria
+</p>
+</div>
+
+<div>
+<h3 class="text-4xl font-black">Clínica</h3>
+<p class="text-zinc-500 mt-2 text-sm uppercase tracking-wider">
+esportiva
+</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- RIGHT -->
+
+<div class="relative flex justify-center reveal">
+
+<div class="absolute w-[420px] h-[420px] rounded-full bg-orange-500/20 blur-[120px]"></div>
+
+<img
+src="./images/paulo-martins.jpg"
+alt="Paulo Martins"
+class="relative z-10 rounded-[36px] border border-white/10 shadow-2xl object-cover max-h-[760px]"
+>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- DOBRA DOR -->
+
+<section class="py-28 bg-[#0a0a0a] border-t border-white/5">
+
+<div class="max-w-6xl mx-auto px-6">
+
+<div class="max-w-3xl mb-20 reveal">
+
+<span class="text-orange-300 uppercase tracking-[0.25em] text-sm font-semibold">
+O problema
+</span>
+
+<h2 class="text-4xl md:text-6xl font-black mt-6 leading-tight tracking-[-0.05em]">
+Você não precisa viver entre extremos para ter resultado.
+</h2>
+
+<p class="text-zinc-400 text-xl mt-8 leading-relaxed">
+Muita gente começa motivada, mas acaba desistindo por dietas difíceis, protocolos impossíveis e excesso de restrição. Resultado sustentável exige estratégia — não sofrimento.
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Dietas impossíveis
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Rotinas alimentares difíceis de seguir acabam gerando desistência.
+</p>
+</div>
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Falta de constância
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Resultados temporários por não conseguir sustentar o processo.
+</p>
+</div>
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Excesso de informação
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Cada pessoa fala uma coisa e você nunca sabe o que realmente funciona.
+</p>
+</div>
+
+<div class="bg-white/[0.03] border border-white/10 rounded-[28px] p-8 reveal">
+<h3 class="text-2xl font-bold mb-5">
+Baixa autoestima
+</h3>
+<p class="text-zinc-500 leading-relaxed">
+Seu corpo começa a impactar disposição, confiança e qualidade de vida.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- MÉTODO -->
+
+<section class="py-32 bg-black relative overflow-hidden">
+
+<div class="glow bottom-[-250px] left-[-100px]"></div>
+
+<div class="max-w-6xl mx-auto px-6 relative z-10">
+
+<div class="text-center max-w-4xl mx-auto mb-24 reveal">
+
+<span class="text-orange-300 uppercase tracking-[0.25em] text-sm font-semibold">
+Método Paulo Martins
+</span>
+
+<h2 class="text-5xl md:text-6xl font-black mt-6 tracking-[-0.05em]">
+Nutrição inteligente para resultado real.
+</h2>
+
+<p class="text-zinc-400 text-xl mt-8 leading-relaxed">
+Uma abordagem focada em construir resultados consistentes através de estratégias possíveis, práticas e adaptadas à sua rotina.
+</p>
+
+</div>
+
+<div class="grid md:grid-cols-3 gap-8">
+
+<div class="bg-zinc-900 border border-white/10 rounded-[32px] p-10 reveal">
+
+<div class="w-16 h-16 rounded-2xl bg-orange-500/10 flex items-center justify-center mb-8">
+<i data-lucide="flame" class="w-8 h-8 text-orange-300"></i>
+</div>
+
+<h3 class="text-3xl font-bold mb-6">
+Emagrecimento
+</h3>
+
+<p class="text-zinc-400 leading-relaxed">
+Estratégias sustentáveis para reduzir gordura sem viver presa a restrições extremas.
+</p>
+
+</div>
+
+<div class="bg-zinc-900 border border-white/10 rounded-[32px] p-10 reveal">
+
+<div class="w-16 h-16 rounded-2xl bg-orange-500/10 flex items-center justify-center mb-8">
+<i data-lucide="dumbbell" class="w-8 h-8 text-orange-300"></i>
+</div>
+
+<h3 class="text-3xl font-bold mb-6">
+Performance
+</h3>
+
+<p class="text-zinc-400 leading-relaxed">
+Melhore energia, rendimento e recuperação através da nutrição aplicada.
+</p>
+
+</div>
+
+<div class="bg-zinc-900 border border-white/10 rounded-[32px] p-10 reveal">
+
+<div class="w-16 h-16 rounded-2xl bg-orange-500/10 flex items-center justify-center mb-8">
+<i data-lucide="shield-check" class="w-8 h-8 text-orange-300"></i>
+</div>
+
+<h3 class="text-3xl font-bold mb-6">
+Constância
+</h3>
+
+<p class="text-zinc-400 leading-relaxed">
+Protocolos pensados para encaixar na vida real e gerar resultados duradouros.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- SOBRE -->
+
+<section class="py-32 bg-[#0b0b0b]">
+
+<div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center">
+
+<div class="reveal">
+
+<img
+src="./images/paulo-about.jpg"
+alt="Paulo Martins"
+class="rounded-[36px] border border-white/10 shadow-2xl"
+>
+
+</div>
+
+<div class="reveal">
+
+<span class="text-orange-300 uppercase tracking-[0.25em] text-sm font-semibold">
+Paulo Martins
+</span>
+
+<h2 class="text-5xl font-black mt-6 mb-8 tracking-[-0.05em]">
+Nutrição clínica esportiva aplicada à vida real.
+</h2>
+
+<div class="space-y-6 text-zinc-400 text-lg leading-relaxed">
+
+<p>
+Paulo Martins trabalha com uma abordagem voltada para emagrecimento, saúde e performance de forma prática e estratégica.
+</p>
+
+<p>
+Sua comunicação transmite simplicidade, consistência e foco em resultados sustentáveis sem radicalismos.
+</p>
+
+<p>
+A proposta é construir um plano alimentar inteligente, aplicável e adaptado à rotina de quem deseja transformar o corpo e melhorar a qualidade de vida.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PROVA -->
+
+<section class="py-32 bg-gradient-to-b from-orange-500 to-amber-500">
+
+<div class="max-w-5xl mx-auto px-6 text-center reveal">
+
+<h2 class="text-5xl md:text-6xl font-black tracking-[-0.05em] leading-tight">
+Resultados construídos com estratégia, constância e direção.
+</h2>
+
+<p class="text-white/80 text-xl mt-10 leading-relaxed max-w-3xl mx-auto">
+A nutrição certa não precisa ser impossível. Ela precisa funcionar na prática e gerar transformação sustentável.
+</p>
+
+</div>
+
+</section>
+
+<!-- CTA FINAL -->
+
+<section class="py-32 bg-black relative overflow-hidden">
+
+<div class="glow bottom-[-200px] right-[-100px]"></div>
+
+<div class="max-w-4xl mx-auto px-6 text-center relative z-10 reveal">
+
+<span class="text-orange-300 uppercase tracking-[0.25em] text-sm font-semibold">
+Consultoria personalizada
+</span>
+
+<h2 class="text-5xl md:text-7xl font-black mt-8 leading-[0.95] tracking-[-0.06em]">
+Sua evolução começa agora.
+</h2>
+
+<p class="text-zinc-400 text-xl leading-relaxed mt-10 max-w-2xl mx-auto">
+Clique no botão abaixo e fale diretamente com Paulo Martins para iniciar sua transformação física.
+</p>
+
+<a
+href="https://api.whatsapp.com/send/?phone=558698008474&text&type=phone_number&app_absent=0&utm_source=ig"
+class="inline-flex mt-14 bg-white text-black px-12 py-6 rounded-2xl font-black text-lg hover:bg-zinc-200 transition-all"
+>
+QUERO MINHA CONSULTORIA
+</a>
+
+</div>
+
+</section>
+
+<script>
+
+lucide.createIcons();
+
+const reveals = document.querySelectorAll('.reveal');
+
+function revealOnScroll(){
+
+reveals.forEach((element)=>{
+
+const windowHeight = window.innerHeight;
+const elementTop = element.getBoundingClientRect().top;
+
+if(elementTop < windowHeight - 80){
+element.classList.add('active');
+}
+
+});
+
+}
+
+window.addEventListener('scroll', revealOnScroll);
+
+revealOnScroll();
+
+</script>
+
+</body>
+</html>
